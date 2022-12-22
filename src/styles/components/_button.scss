@@ -1,0 +1,32 @@
+.button{
+    padding: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    text-decoration: none;
+    text-align: center;
+    white-space: nowrap;
+    &--primary{
+        color: #fff;
+        background-color: #4f2ac3;
+
+        &:hover{
+            filter: brightness(1.2);
+            transition: filter .2s;
+        }
+
+    }
+    @media (max-width: 1024px){
+        display: flex;
+        align-items: center;
+
+    }
+    @media (max-width: 640px){
+        display: block;
+        width: 100%;
+    
+    }
+
+    
+}
