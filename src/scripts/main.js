@@ -1,3 +1,1 @@
-
-
-console.log('rodei')
+AOS.init();

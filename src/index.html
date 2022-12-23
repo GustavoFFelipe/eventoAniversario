@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles/main.scss">
     <title>Birthday Event</title>
 </head>
 <body>
     <header class="hero">
-        <div class="container">
-            <img class="hero__logo" src="./images/ebac_logo.svg" alt="EBAC logo">
+        <div class="container" data-aos="fade-up">
+            <img class="hero__logo" src="./images/icons8-festa-dançante-100.png" alt="EBAC logo">
             <p class="hero__text">
                 O evento do ano está chegando, o MEU aniversário 10d 20h 32m 10s.
             </p>
@@ -34,18 +35,58 @@
             </div>
         </div>
     </header>
-    <section class="event">
-        <div class="container">
-            <div class="event__details">
-                <h2 class="event__details__title">Front-end</h2>
+    <section class="event event--frontend" >
+        <div class="container" data-aos="fade-up-right">
+            <div class="event__details ">
+                <h2 class="event__details__title">Só gente maneira</h2>
                 <p class="event__details__description">
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit cum, error architecto mollitia, rem atque ipsam eveniet quis, inventore totam maxime dignissimos eum! Nulla, deleniti ratione architecto vero doloribus veniam.
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit cum, error.
                 </p>
             </div>
-            <img class="event__image" src="./images/frontend.png" alt="">
+            <img class="event__image" src="./images/party1.jpg" alt="">
         </div>
     </section>
+
+    <section class="event event--backend" >
+        <div class="container container--left" data-aos="fade-up-left">
+            <div class="event__details ">
+                <h2 class="event__details__title">Com aquela piscininha pra refrescar</h2>
+                <p class="event__details__description">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit cum, error architecto mollitia, rem atque ipsam eveniet quis, inventore totam maxime dignissimos eum! Nulla, deleniti ratione architecto vero doloribus veniam.
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit cum, error.
+                </p>
+            </div>
+            <img class="event__image" src="./images/party2.jpg" alt="">
+        </div>
+    </section>
+
+    <section class="event event--ui-ux" >
+        <div class="container" data-aos="fade-up-right">
+            <div class="event__details ">
+                <h2 class="event__details__title">Muita música boa</h2>
+                <p class="event__details__description">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit cum, error architecto mollitia, rem atque ipsam eveniet quis, inventore totam maxime dignissimos eum! Nulla, deleniti ratione architecto vero doloribus veniam.
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit cum, error.
+                </p>
+            </div>
+            <img class="event__image" src="./images/party3.jpg" alt="">
+        </div>
+    </section>
+
+    <section class="event event--data-science" >
+        <div class="container container--left" data-aos="fade-up-left">
+            <div class="event__details ">
+                <h2 class="event__details__title">Venha curtir até o amanhecer</h2>
+                <p class="event__details__description">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit cum, error architecto mollitia, rem atque ipsam eveniet quis, inventore totam maxime dignissimos eum! Nulla, deleniti ratione architecto vero doloribus veniam.
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit cum, error.
+                </p>
+            </div>
+            <img class="event__image" src="./images/party4.jpg" alt="">
+        </div>
+    </section>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="./scripts/main.js"></script>
 </body>
 </html>
