@@ -2,7 +2,6 @@
   "name": "eventoaniversario",
   "version": "1.0.0",
   "description": "",
-
   "scripts": {
     "build": "parcel src/index.html",
     "dev": "parcel src/index.html src/styles/main.scss src/scripts/main.js",
@@ -15,5 +14,10 @@
     "@parcel/transformer-sass": "^2.8.2",
     "parcel": "^2.8.2",
     "sharp": "^0.31.3"
+  },
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "each-async": "^2.0.0",
+    "indent-string": "^5.0.0"
   }
 }
